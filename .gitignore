@@ -1,0 +1,21 @@
+# Ignore all node_modules in any subfolder
+node_modules/
+
+# Ignore Python venv in any subfolder
+venv/
+__pycache__/
+*.pyc
+
+# Ignore build outputs (React, Vue, etc.)
+build/
+dist/
+
+# Ignore OS and IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Optional: environment / secret files
+.env
+.env.*
+*.local
